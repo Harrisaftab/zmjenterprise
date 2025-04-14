@@ -1,0 +1,205 @@
+.video-items {
+    position: relative;
+    
+    .circle-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        .text-circle {
+            animation: cir36 10s linear infinite;
+        }
+
+        .video-button {
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            background-color: $white;
+            border-radius: 50%;
+            color: $theme-color;
+            font-size: 18px;
+            display: inline-block;
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            z-index: 1;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+}
+
+.video-items-2 {
+    position: relative;
+    z-index: 9;
+
+    .video-button {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+        text-align: center;
+        border-radius: 50%;
+        background-color: $white;
+        color: $header-color-2;
+        display: inline-block;
+
+        @include breakpoint (max-md){
+           width: 80px;
+           height: 80px;
+           line-height: 80px;
+        }
+
+        @include breakpoint (max-sm){
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            font-size: 14px;
+         }
+    }
+}
+
+.video-section-2 {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 250px;
+    background-attachment: fixed;
+
+    @include breakpoint (max-md){
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+
+    @include breakpoint (max-sm){
+        padding-top: 80px;
+        padding-bottom: 180px;
+    }
+
+    &::before {
+        @include before;
+        background-color: $black;
+        opacity: .8;
+    }
+}
+
+.video-section {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 315px 0;
+    background-attachment: fixed;
+
+    @include breakpoint(max-xl){
+        padding: 250px 0;
+    }
+
+    @include breakpoint(max-lg){
+        padding: 200px 0;
+    }
+
+    @include breakpoint(max-sm){
+        padding: 150px 0;
+    }
+}
+
+.funfact-wrapper {
+    border-bottom: 1px solid $theme-color-2;
+}
+
+.single-funfact-items {
+    margin-bottom: -6px;
+    margin-top: -15px;
+
+    .funfact-content {
+        h2 {
+            font-size: 80px;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: $theme-color;
+            -webkit-text-fill-color: transparent;
+
+            @include breakpoint(max-md){
+                font-size: 62px;
+                margin-top: 20px;
+            }
+        }
+
+        p {
+            margin-top: 10px;
+            padding-bottom: 40px;
+            border-bottom: 1px solid $theme-color;
+
+            @include breakpoint(max-sm){
+                padding-bottom: 30px;
+            }
+        }
+
+        .title {
+            margin-top: 20px;
+           h6 {
+                font-size: 16px;
+                font-weight: 600;
+           }
+
+           .icon {
+                font-size: 16px;
+                color: $theme-color-2;
+           }
+        }
+    }
+}
+
+.achievement-section {
+    position: relative;
+
+    .shape-left {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        opacity: .1;
+    }
+}
+
+.achievement-wrapper {
+    position: relative;
+    z-index: 9;
+    
+    .achievement-content {
+        .about-button {
+            margin-top: 40px;
+        }
+    }
+
+    .counter-area {
+        margin-left: 40px;
+
+        @include breakpoint (max-xl){
+            margin-left: 0;
+        }
+
+        .counter-items {
+            background-color: $white;
+            text-align: center;
+            padding: 30px;
+
+            .content {
+                margin-top: 20px;
+
+                h2 {
+                    font-size: 42px;
+                    color: $header-color-2;
+                    margin-bottom: 5px;
+
+                    @include breakpoint (max-md){
+                        font-size: 36px;
+                    }
+
+                    @include breakpoint (max-sm){
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+    }
+}

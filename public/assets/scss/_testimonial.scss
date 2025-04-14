@@ -1,0 +1,461 @@
+.testimonial-bg {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    @include breakpoint(max-xl){
+        overflow: hidden;
+    }
+
+    .text-circle {
+        position: absolute;
+        top: -8%;
+        right: 17%;
+       animation: cir36 10s linear infinite;
+       
+        @include breakpoint(max-xl){
+            display: none;
+        }
+    }
+
+    .section-title {
+        display: inline-block;
+        h2 {
+            @include breakpoint(max-xl){
+                font-size: 37px;
+            }
+            @include breakpoint(max-lg){
+                font-size: 32px;
+            }
+            @include breakpoint(max-sm){
+                font-size: 28px;
+            }
+            .text {
+                font-size: 50px;
+                margin-left: 170px;
+                color: $white;
+                font-weight: 600;
+
+                @include breakpoint(max-xl){
+                    font-size: 37px;
+                }
+                @include breakpoint(max-lg){
+                    font-size: 32px;
+                    margin-left: 0;
+                }
+                @include breakpoint(max-sm){
+                    font-size: 28px;
+                }
+            }
+
+            .text-2 {
+                font-size: 50px;
+                color: $theme-color-2;
+                font-weight: 600;
+
+                @include breakpoint(max-xl){
+                    font-size: 37px;
+                }
+                @include breakpoint(max-lg){
+                    font-size: 32px;
+                }
+                @include breakpoint(max-sm){
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+
+    .testimonial-wrapper {
+        overflow: hidden;
+        .array-btn {
+            @include flex;
+            gap: 20px;
+            position: absolute;
+            right: 20%;
+            bottom: 13.5%;
+            z-index: 99;
+
+            @include breakpoint(max-lg){
+                display: none;
+            }
+    
+            .array-prev {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                background-color: transparent;
+                border: 2px solid #FFFFFF33;
+                border-radius: 50%;
+                color: $white;
+            }
+    
+            .array-next {
+                width: 50px;
+                height: 50px;
+                line-height: 50px;
+                background-color: $theme-color-2;
+                border-radius: 50%;
+                color: $white;
+            }
+        }
+    
+        .client-image-items {
+            .client-image {
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+
+            @include breakpoint(max-lg){
+               display: none;
+            }
+            .testimonial-image-slider {
+                height: 410px;
+            }
+        }
+    
+        .testimonial-slide-content {
+            height: 480px;
+
+            @include breakpoint(max-xl){
+                height: 600px;
+            }
+
+            @include breakpoint(max-sm){
+                height: 550px;
+            }
+
+            @include breakpoint(max-xxsmall){
+                height: 650px;
+            }
+
+            .testimonial-content {
+            border: 2px solid rgba(255, 255, 255, .1);
+            padding: 50px;
+            border-radius: 10px;
+
+            @include breakpoint(max-sm){
+               padding: 40px;
+            }
+    
+            ul {
+                margin-bottom: 20px;
+    
+                @include flex;
+                 li {
+                    font-size: 16px;
+                    color: $theme-color-2;
+                 }
+            }
+    
+            h3 {
+                color: $white;
+                font-weight: 500;
+            }
+    
+            h4 {
+                color: $white;
+                margin-top: 15px;
+            }
+    
+            .client-info {
+                margin-top: 30px;
+                h6 {
+                    font-size: 16px;
+                    color: $text-color;
+                    font-weight: 400;
+                    font-family: $body-font;
+    
+                    span {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+         }
+        }
+    }
+
+}
+
+.testimonial-wrapper-2 {
+    @media (min-width: 1220px) {
+        margin-left: calc(-50vw + 555px);
+    }
+
+    .testimonial-image {
+        position: relative;
+        
+        img {
+            @include imgw;
+        }
+        .vdieo-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+
+        .video-btn{
+            position: relative;
+            text-align: center;
+            display: inline-block;
+            z-index: 2;
+            a{
+                position: relative;
+                color: $theme-color;
+                font-size: 16px;
+                z-index: 1;
+                background-color: $white;
+                width: 100px;
+                height: 100px;
+                line-height: 100px;
+                border-radius: 50%;
+                display: block;
+                transition: 0.4s;
+                i{
+                    color: $theme-color;
+                }
+            }
+        }
+    }
+
+    .testimonial-content-items {
+        padding: 50px;
+        background-color: $white;
+        margin-left: -250px;
+        position: relative;
+        z-index: 9;
+
+        @include breakpoint(max-xl){
+            margin-left: 0;
+        }
+
+        @include breakpoint(max-xl){
+           padding: 35px;
+        }
+    
+        ul {
+            @include flex;
+            margin-bottom: 20px;
+
+            li {
+                i {
+                    color: $theme-color-2;
+                }
+            }
+        }
+
+        h4 {
+            font-weight: 400;
+            line-height: 150%;
+        }
+
+        .client-info {
+            margin-top: 70px;
+
+            @include breakpoint(max-xl){
+               margin-top: 30px;
+            }
+
+            .info-content {
+                h6 {
+                    font-size: 16px;
+                    color: $text-color;
+                    font-weight: 400;
+                    font-family: $body-font;
+                    margin-bottom: 5px;
+
+                    span {
+                        color: $theme-color-2;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.testimonial-wrapper-4 {
+    position: relative;
+
+    .testimonial-items {
+        text-align: center;
+        position: relative;
+        padding-bottom: 20px;
+
+        @include breakpoint (max-xl){
+            padding: 40px;
+        }
+
+        @include breakpoint (max-sm){
+            padding: 30px;
+        }
+
+        &::before {
+            @include before;
+            background-color: $white;
+            box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.07);
+            top: 40px;
+            z-index: 1;
+
+            @include breakpoint (max-xl){
+                top: 70px;
+            }
+        }
+
+        .testimonial-image {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            margin: 0 auto;
+            position: relative;
+            z-index: 9;
+        }
+
+        .client-info {
+            margin-top: 20px;
+            position: relative;
+            z-index: 9;
+
+            @include breakpoint (max-sm){
+                margin-top: 10px;
+            }
+
+            h5 {
+                font-size: 18px;
+                 text-transform: uppercase;
+            }
+
+            h6 {
+                font-size: 16px;
+                margin-top: 5px;
+
+                span {
+                    color: $theme-color;
+                }
+            }
+        }
+
+        .testimonial-content {
+            max-width: 950px;
+            text-align: center;
+            margin: 50px auto;
+            position: relative;
+            z-index: 9;
+
+            @include breakpoint (max-lg){
+                margin: 30px auto;
+            }
+
+            @include breakpoint (max-md){
+                margin: 20px auto;
+            }
+
+            @include breakpoint (max-sm){
+                margin: 10px auto;
+            }
+
+            h3 {
+                font-size: 30px;
+                line-height: 180%;
+                font-weight: 500;
+
+                @include breakpoint (max-xl){
+                   font-size: 24px;
+                }
+
+                @include breakpoint (max-lg){
+                    font-size: 20px;
+                    line-height: 170%;
+                 }
+
+                @include breakpoint (max-md){
+                    font-size: 18px;
+                    line-height: 165%;
+                 }
+
+                @include breakpoint (max-sm){
+                    font-size: 15px;
+                    line-height: 160%;
+                }
+            }
+
+            .star {
+                margin-top: 30px;
+
+                @include breakpoint (max-md){
+                   margin-top: 20px;
+                }
+
+                @include breakpoint (max-sm){
+                    margin-top: 10px;
+                 }
+
+                span {
+                    font-size: 14px;
+                    color: $ratting-color;
+                }
+            }
+        }
+    }
+}
+
+.testimonial-section-4 {
+    position: relative;
+
+    @include breakpoint (max-xl){
+        margin-top: -40px;
+    }
+
+    &::before {
+        @include before;
+        background-color: $bg-color;
+        z-index: -1;
+        top: 30%;
+    }
+
+    &::after {
+        position: absolute;
+        bottom: 11%;
+        right: 20%;
+        width: 90px;
+        height: 90px;
+        border-radius: 90px;
+        background-color: $theme-color-2;
+        content: "";
+        z-index: -1;
+    }
+
+    .client-1 {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 40px;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        @include breakpoint (max-xxl){
+            display: none
+        }
+
+        img {
+            @include imgw;
+        }
+        
+    }
+
+    .client-2 {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        overflow: hidden;
+        @include breakpoint (max-xxl){
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,210 @@
+
+.choose-wrapper {
+    .choose-icon-items {
+        @include flex;
+       
+    }
+
+    .choose-items {
+        padding: 30px 20px;
+        border-top: 1px solid $border-color;
+        border-left: 1px solid $border-color;
+        position: relative;
+        font-size: 24px;
+        .arrow-icon {
+            position: absolute;
+            right: 15px;
+            top: 0;
+            color: $theme-color;
+            transform: rotate(-45deg);
+        }
+        .content {
+            margin-top: 20px;
+
+            h6 {
+                font-size: 14px;
+                font-weight: 600;
+            }
+        }
+
+        &.style-2 {
+            border-top: none;
+            border-bottom: 1px solid $border-color;
+            border-right: 1px solid $border-color;
+        }
+    }
+
+    .choose-image {
+        .choose-image-1 {
+            max-width: 300px;
+            img {
+                @include imgw;
+             }
+             @include breakpoint(max-sm){
+                text-align: center;
+                margin: 0 auto;
+              }
+        }
+
+        .choose-image-2 {
+            max-width: 300px;
+
+            img {
+                @include imgw;
+             }
+
+             @include breakpoint(max-sm){
+               text-align: center;
+               margin: 0 auto;
+             }
+        }
+
+        .choose-image-3 {
+            max-width: 480px;
+            margin-top: 30px;
+            margin-left: -150px;
+            
+            img {
+                @include imgw;
+             }
+
+             @include breakpoint(max-sm){
+                display: none;
+             }
+        }
+    }
+}
+
+.choose-us-wrapper-2 {
+    .choose-us-content {
+        .icon-items {
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+
+            @include breakpoint (max-sm){
+               margin-top: 20px;
+            }
+
+            .icon {
+                font-size: 48px;
+                color: $theme-color;
+            }
+
+            .content {
+                h5 {
+                    @include breakpoint (max-sm){
+                       font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .choose-image-items {
+        margin-left: 30px;
+        position: relative;
+
+        @include breakpoint (max-lg){
+            margin-left: 0;
+        }
+
+        @include breakpoint (max-sm){
+           margin-bottom: -10px;
+        }
+
+        .video-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            .video-btn {
+                background-color: $theme-color-2;
+                color: $white;
+                display: inline-block;
+                font-size: 18px;
+                height: 95px;
+                width: 95px;
+                line-height: 95px;
+                border-radius: 50%;
+                text-align: center;
+
+                @include breakpoint (max-sm){
+                    width: 70px;
+                    height: 70px;
+                    line-height: 70px;
+                    font-size: 16px;
+                }
+            }
+        }
+
+        img {
+            @include imgw;
+            object-fit: cover;
+        }
+
+        .choose-image-1 {
+            @include breakpoint (max-md){
+                height: 450px;
+            }
+
+            @include breakpoint (max-sm){
+                height: 380px;
+            }
+        }
+
+        .choose-image-2 {
+            margin-top: 50px;
+
+            @include breakpoint (max-md){
+                height: 450px;
+                margin-top: 0;
+            }
+
+            @include breakpoint (max-sm){
+                height: 380px;
+            }
+        }
+    }
+}
+
+.choose-us-wrapper-3 {
+    .choose-image {
+        margin: 0 40px;
+
+        @include breakpoint (max-xxl){
+            margin: 0;
+        }
+
+        @include breakpoint (max-sm){
+            height: 400px;
+        }
+
+        img {
+            @include imgw;
+            object-fit: cover;
+        }
+    }
+
+    .icon-area {
+        .icon-items {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 40px;
+
+            .icon {
+                font-size: 62px;
+                color: $header-color-2;
+            }
+
+            .content {
+                h5 {
+                    margin-bottom: 5px;
+                    font-size: 18px;
+                    color: $header-color-2;
+                }
+            }
+        }
+    }
+}
