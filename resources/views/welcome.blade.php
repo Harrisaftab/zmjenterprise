@@ -11,23 +11,23 @@
         <!-- ======== Page title ============ -->
         <title>ZMJ- Construction</title>
         <!--<< Favicon >>-->
-        <link rel="shortcut icon" href="assets/img/icon/icon-2.png">
+        <link rel="shortcut icon" href="public/assets/img/icon/icon-2.png">
         <!--<< Bootstrap min.css >>-->
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
         <!--<< Font Awesome.css >>-->
-        <link rel="stylesheet" href="assets/css/font-awesome.css">
+        <link rel="stylesheet" href="public/assets/css/font-awesome.css">
         <!--<< Animate.css >>-->
-        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="public/assets/css/animate.css">
         <!--<< Magnific Popup.css >>-->
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="public/assets/css/magnific-popup.css">
         <!--<< MeanMenu.css >>-->
-        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <link rel="stylesheet" href="public/assets/css/meanmenu.css">
         <!--<< Swiper Bundle.css >>-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="public/assets/css/swiper-bundle.min.css">
         <!--<< Nice Select.css >>-->
-        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="public/assets/css/nice-select.css">
         <!--<< Main.css >>-->
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="public/assets/css/main.css">
         <!--<< Style.css >>-->
         <link rel="stylesheet" href="style.css">
         <!-- template main style css file -->
@@ -118,7 +118,7 @@
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
                                 <a href="#">
-                                <img src="assets/img/logo/n-logo.png" alt="logo-img">
+                                <img src="public/assets/img/logo/n-logo.png" alt="logo-img">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
@@ -215,7 +215,7 @@
             <div id="header-sticky" class="header-1">
                 <div class="header-logo">
                     <a href="#">
-                    <img src="assets/img/logo/n-logo.png" alt="Header Logo">
+                    <img src="public/assets/img/logo/n-logo.png" alt="Header Logo">
                     </a>
                 </div>
                 <div class="mega-menu-wrapper">
@@ -235,7 +235,7 @@
                                                         <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-6">
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb">
-                                                                    <img src="assets/img/header/home-1.jpg" alt="img">
+                                                                    <img src="public/assets/img/header/home-1.jpg" alt="img">
                                                                     <div class="demo-button">
                                                                         <a href="#" class="theme-btn hover-color">
                                                                             <span class="theme-effect">
@@ -259,7 +259,7 @@
                                                             </div>
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb mb-15">
-                                                                    <img src="assets/img/header/home-2.jpg" alt="img">
+                                                                    <img src="public/assets/img/header/home-2.jpg" alt="img">
                                                                     <div class="demo-button">
                                                                         <a href="index-2.html" class="theme-btn hover-color">
                                                                             <span class="theme-effect">
@@ -283,7 +283,7 @@
                                                             </div>
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb mb-15">
-                                                                    <img src="assets/img/header/home-3.jpg" alt="img">
+                                                                    <img src="public/assets/img/header/home-3.jpg" alt="img">
                                                                     <div class="demo-button">
                                                                         <a href="index-3.html" class="theme-btn hover-color">
                                                                             <span class="theme-effect">
@@ -307,7 +307,7 @@
                                                             </div>
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb mb-15">
-                                                                    <img src="assets/img/header/home-4.jpg" alt="img">
+                                                                    <img src="public/assets/img/header/home-4.jpg" alt="img">
                                                                     <div class="demo-button">
                                                                         <a href="index-4.html" class="theme-btn hover-color">
                                                                             <span class="theme-effect">
@@ -331,7 +331,7 @@
                                                             </div>
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb mb-15">
-                                                                    <img src="assets/img/header/home-5.jpg" alt="img">
+                                                                    <img src="public/assets/img/header/home-5.jpg" alt="img">
                                                                     <div class="demo-button">
                                                                         <a href="index-5.html" class="theme-btn hover-color">
                                                                             <span class="theme-effect">
@@ -355,7 +355,7 @@
                                                             </div>
                                                             <div class="col homemenu">
                                                                 <div class="homemenu-thumb mb-15">
-                                                                    <img src="assets/img/header/home-6.jpg" alt="img">
+                                                                    <img src="public/assets/img/header/home-6.jpg" alt="img">
                                                                     <div class="demo-button">
                                                                         <a href="index-6.html" class="theme-btn hover-color">
                                                                             <span class="theme-effect">
@@ -483,7 +483,7 @@
                             <div class="header__hamburger d-xl-block my-auto">
                                 <div class="sidebar__toggle">
                                     <a class="bar-icon" href="javascript:void(0)">
-                                    <img src="assets/img/logo/bar.svg" alt="bar-img">
+                                    <img src="public/assets/img/logo/bar.svg" alt="bar-img">
                                     </a>
                                 </div>
                             </div>
@@ -504,10 +504,10 @@
                     <div class="swiper-slide">
                         <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/new/07.jpg');"></div>
                         <div class="shape-1"  data-animation="fadeInUp" data-delay="2.3s">
-                            <img src="assets/img/hero/new/shape.png" alt="shape-img">
+                            <img src="public/assets/img/hero/new/shape.png" alt="shape-img">
                         </div>
                         <div class="shape-2" data-animation="fadeInRight" data-delay="2.1s">
-                            <img src="assets/img/hero/new/shape-2.png" alt="shape-img">
+                            <img src="public/assets/img/hero/new/shape-2.png" alt="shape-img">
                         </div>
                         <div class="container">
                             <div class="row">
@@ -543,10 +543,10 @@
                     <div class="swiper-slide">
                         <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/new/08.jpg');"></div>
                         <div class="shape-1"  data-animation="fadeInUp" data-delay="2.3s">
-                            <img src="assets/img/hero/new/shape.png" alt="shape-img">
+                            <img src="public/assets/img/hero/new/shape.png" alt="shape-img">
                         </div>
                         <div class="shape-2" data-animation="fadeInRight" data-delay="2.1s">
-                            <img src="assets/img/hero/new/shape-2.png" alt="shape-img">
+                            <img src="public/assets/img/hero/new/shape-2.png" alt="shape-img">
                         </div>
                         <div class="container">
                             <div class="row">
@@ -582,10 +582,10 @@
                     <div class="swiper-slide">
                         <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/new/09.jpg');"></div>
                         <div class="shape-1"  data-animation="fadeInUp" data-delay="2.3s">
-                            <img src="assets/img/hero/new/shape.png" alt="shape-img">
+                            <img src="public/assets/img/hero/new/shape.png" alt="shape-img">
                         </div>
                         <div class="shape-2" data-animation="fadeInRight" data-delay="2.1s">
-                            <img src="assets/img/hero/new/shape-2.png" alt="shape-img">
+                            <img src="public/assets/img/hero/new/shape-2.png" alt="shape-img">
                         </div>
                         <div class="container">
                             <div class="row">
@@ -628,9 +628,9 @@
                 <div class="container">
                     <div class="section-header">
                         <div class="circle-box">
-                            <img src="assets/img/about/text-circle.png" alt="img" class="text-circle">
+                            <img src="public/assets/img/about/text-circle.png" alt="img" class="text-circle">
                             <div class="icon-img">
-                                <img src="assets/img/about/icon.png" alt="img">
+                                <img src="public/assets/img/about/icon.png" alt="img">
                             </div>
                         </div>
                         <h2 class="wow fadeInUp" data-wow-delay=".4s">
@@ -641,13 +641,13 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
                             <div class="about-image">
-                                <img src="assets/img/about/about.jpg" alt="about-img">
+                                <img src="public/assets/img/about/about.jpg" alt="about-img">
                                 <div class="counter-content">
                                     <h6>project done</h6>
                                     <h2><span class="count">2</span>m</h2>
                                 </div>
                                 <div class="dot">
-                                    <img src="assets/img/about/dot.png" alt="dot">
+                                    <img src="public/assets/img/about/dot.png" alt="dot">
                                 </div>
                             </div>
                         </div>
@@ -657,7 +657,7 @@
                                     This involves interactions between a business and its customers. It's about meeting customers' needs and resolving their problems. Effective customer service is crucial for maintaining customer satisfaction and loyalty.
                                 </p>
                                 <div class="about-image-2 wow fadeInUp" data-wow-delay=".5s">
-                                    <img src="assets/img/about/about-2.jpg" alt="about-img">
+                                    <img src="public/assets/img/about/about-2.jpg" alt="about-img">
                                 </div>
                             </div>
                         </div>
@@ -675,7 +675,7 @@
                             <div class="service-content">
                                 <div class="section-title style-2">
                                     <span class="wow fadeInUp">
-                                    <img src="assets/img/hero/title.png" alt="title-img">
+                                    <img src="public/assets/img/hero/title.png" alt="title-img">
                                     services
                                     </span>
                                     <h2 class="wow fadeInUp" data-wow-delay=".3s">
@@ -790,7 +790,7 @@
         <!-- Contact Info Section Start -->
         <section class="contact-info-section fix">
             <div class="pattern-shape">
-                <img src="assets/img/contact/pattern.png" alt="shape-img">
+                <img src="public/assets/img/contact/pattern.png" alt="shape-img">
             </div>
             <div class="container">
                 <div class="contact-info-wrapper">
@@ -800,7 +800,7 @@
                             <h5>zmjenterprises727@gmail.com</h5>
                         </div>
                         <div class="icon">
-                            <img src="assets/img/contact/icon.svg" alt="icon-img">
+                            <img src="public/assets/img/contact/icon.svg" alt="icon-img">
                         </div>
                     </div>
                     <div class="contact-info-items d-flex align-items-center wow fadeInUp" data-wow-delay=".5s">
@@ -809,7 +809,7 @@
                             <h5>+92 333 5499057</h5>
                         </div>
                         <div class="icon">
-                            <img src="assets/img/contact/icon-2.svg" alt="icon-img">
+                            <img src="public/assets/img/contact/icon-2.svg" alt="icon-img">
                         </div>
                     </div>
                     <div class="contact-info-items d-flex align-items-center wow fadeInUp" data-wow-delay=".7s">
@@ -818,7 +818,7 @@
                             <h5>7:00 am - 9:00 pm</h5>
                         </div>
                         <div class="icon">
-                            <img src="assets/img/contact/icon-3.svg" alt="icon-img">
+                            <img src="public/assets/img/contact/icon-3.svg" alt="icon-img">
                         </div>
                     </div>
                 </div>
@@ -834,7 +834,7 @@
                             <div class="sponsors-content">
                                 <div class="section-title white-color">
                                     <span class="wow fadeInUp">
-                                    <img src="assets/img/title-2.png" alt="title-img">
+                                    <img src="public/assets/img/title-2.png" alt="title-img">
                                     sponsors
                                     </span>
                                     <h2 class="wow fadeInUp" data-wow-delay=".3s">
@@ -860,35 +860,35 @@
                             <div class="sponsor-right">
                                 <div class="sponsor-items d-flex align-items-center justify-content-between">
                                     <div class="sponsor-image wow fadeInUp" data-wow-delay=".3s">
-                                        <img src="assets/img/sponsor/01.png" alt="img">
+                                        <img src="public/assets/img/sponsor/01.png" alt="img">
                                     </div>
                                     <div class="sponsor-image wow fadeInUp" data-wow-delay=".5s">
-                                        <img src="assets/img/sponsor/02.png" alt="img">
+                                        <img src="public/assets/img/sponsor/02.png" alt="img">
                                     </div>
                                     <div class="sponsor-image wow fadeInUp" data-wow-delay=".7s">
-                                        <img src="assets/img/sponsor/03.png" alt="img">
+                                        <img src="public/assets/img/sponsor/03.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="sponsor-items d-flex align-items-center justify-content-between">
                                     <div class="sponsor-image wow fadeInUp" data-wow-delay=".3s">
-                                        <img src="assets/img/sponsor/04.png" alt="img">
+                                        <img src="public/assets/img/sponsor/04.png" alt="img">
                                     </div>
                                     <div class="sponsor-image wow fadeInUp" data-wow-delay=".5s">
-                                        <img src="assets/img/sponsor/07.png" alt="img">
+                                        <img src="public/assets/img/sponsor/07.png" alt="img">
                                     </div>
                                     <div class="sponsor-image wow fadeInUp" data-wow-delay=".7s">
-                                        <img src="assets/img/sponsor/05.png" alt="img">
+                                        <img src="public/assets/img/sponsor/05.png" alt="img">
                                     </div>
                                 </div>
                                 <div class="sponsor-items d-flex align-items-center justify-content-between">
                                     <div class="sponsor-image wow fadeInUp" data-wow-delay=".3s">
-                                        <img src="assets/img/sponsor/06.png" alt="img">
+                                        <img src="public/assets/img/sponsor/06.png" alt="img">
                                     </div>
                                     <div class="sponsor-image wow fadeInUp" data-wow-delay=".5s">
-                                        <img src="assets/img/sponsor/08.png" alt="img">
+                                        <img src="public/assets/img/sponsor/08.png" alt="img">
                                     </div>
                                     <div class="sponsor-image wow fadeInUp" data-wow-delay=".7s">
-                                        <img src="assets/img/sponsor/09.png" alt="img">
+                                        <img src="public/assets/img/sponsor/09.png" alt="img">
                                     </div>
                                 </div>
                             </div>
@@ -901,7 +901,7 @@
         <!-- Portfolio Section Start -->
         <section class="portfolio-section section-padding fix">
             <div class="pattern-shape">
-                <img src="assets/img/contact/pattern.png" alt="shape-img">
+                <img src="public/assets/img/contact/pattern.png" alt="shape-img">
             </div>
             <div class="array-btn">
                 <button class="array-prev">
@@ -914,9 +914,9 @@
             <div class="container">
                 <div class="section-title text-center">
                     <span class="wow fadeInUp">
-                    <img src="assets/img/hero/title.png" alt="title-img">
+                    <img src="public/assets/img/hero/title.png" alt="title-img">
                     portfolio
-                    <img src="assets/img/hero/title.png" alt="title-img" class="title-img-2">
+                    <img src="public/assets/img/hero/title.png" alt="title-img" class="title-img-2">
                     </span>
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">
                         company cases
@@ -931,7 +931,7 @@
                                         <div class="swiper-slide">
                                             <div class="single-portfolio-items">
                                                 <div class="logo">
-                                                    <img src="assets/img/portfolio/logo.svg" alt="img">
+                                                    <img src="public/assets/img/portfolio/logo.svg" alt="img">
                                                 </div>
                                                 <h5 class="text-right">
                                                     01
@@ -958,7 +958,7 @@
                                         <div class="swiper-slide">
                                             <div class="single-portfolio-items">
                                                 <div class="logo">
-                                                    <img src="assets/img/portfolio/logo.svg" alt="img">
+                                                    <img src="public/assets/img/portfolio/logo.svg" alt="img">
                                                 </div>
                                                 <h5 class="text-right">
                                                     02
@@ -985,7 +985,7 @@
                                         <div class="swiper-slide">
                                             <div class="single-portfolio-items">
                                                 <div class="logo">
-                                                    <img src="assets/img/portfolio/logo.svg" alt="img">
+                                                    <img src="public/assets/img/portfolio/logo.svg" alt="img">
                                                 </div>
                                                 <h5 class="text-right">
                                                     03
@@ -1018,17 +1018,17 @@
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
                                         <div class="portfolio-image">
-                                            <img src="assets/img/portfolio/001.jpg" alt="portfolio-img">
+                                            <img src="public/assets/img/portfolio/001.jpg" alt="portfolio-img">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="portfolio-image">
-                                            <img src="assets/img/portfolio/002.jpg" alt="portfolio-img">
+                                            <img src="public/assets/img/portfolio/002.jpg" alt="portfolio-img">
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="portfolio-image">
-                                            <img src="assets/img/portfolio/003.jpg" alt="portfolio-img">
+                                            <img src="public/assets/img/portfolio/003.jpg" alt="portfolio-img">
                                         </div>
                                     </div>
                                 </div>
@@ -1043,12 +1043,12 @@
         <section class="testimonial-section">
             <div class="testimonial-bg section-padding" data-background="assets/img/testimonial/bg.jpg">
                 <div class="text-circle">
-                    <img src="assets/img/testimonial/text-circle.png" alt="text-circle">
+                    <img src="public/assets/img/testimonial/text-circle.png" alt="text-circle">
                 </div>
                 <div class="container">
                     <div class="section-title white-color">
                         <span class="text-white wow fadeInUp">
-                        <img src="assets/img/title-2.png" alt="title-img">
+                        <img src="public/assets/img/title-2.png" alt="title-img">
                         testimonials
                         </span>
                         <h2 class="wow fadeInUp" data-wow-delay=".3s">
@@ -1072,17 +1072,17 @@
                                         <div class="swiper-wrapper">
                                             <div class="swiper-slide">
                                                 <div class="client-image">
-                                                    <img src="assets/img/testimonial/01.png" alt="client-img">
+                                                    <img src="public/assets/img/testimonial/01.png" alt="client-img">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="client-image">
-                                                    <img src="assets/img/testimonial/02.png" alt="client-img">
+                                                    <img src="public/assets/img/testimonial/02.png" alt="client-img">
                                                 </div>
                                             </div>
                                             <div class="swiper-slide">
                                                 <div class="client-image">
-                                                    <img src="assets/img/testimonial/03.png" alt="client-img">
+                                                    <img src="public/assets/img/testimonial/03.png" alt="client-img">
                                                 </div>
                                             </div>
                                         </div>
@@ -1160,9 +1160,9 @@
             <div class="container">
                 <div class="section-title text-center">
                     <span class="wow fadeInUp">
-                    <img src="assets/img/hero/title.png" alt="title-img">
+                    <img src="public/assets/img/hero/title.png" alt="title-img">
                     team
-                    <img src="assets/img/hero/title.png" alt="title-img" class="title-img-2">
+                    <img src="public/assets/img/hero/title.png" alt="title-img" class="title-img-2">
                     </span>
                     <h2 class="wow fadeInUp" data-wow-delay=".3s">
                         our avengers
@@ -1172,9 +1172,9 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="single-team-items text-center">
                             <div class="team-image">
-                                <img src="assets/img/team/01.png" alt="team-img">
+                                <img src="public/assets/img/team/01.png" alt="team-img">
                                 <div class="icon-shape">
-                                    <img src="assets/img/team/icon.png" alt="icon-shape">
+                                    <img src="public/assets/img/team/icon.png" alt="icon-shape">
                                 </div>
                             </div>
                             <div class="team-content">
@@ -1186,9 +1186,9 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                         <div class="single-team-items text-center">
                             <div class="team-image">
-                                <img src="assets/img/team/02.png" alt="team-img">
+                                <img src="public/assets/img/team/02.png" alt="team-img">
                                 <div class="icon-shape">
-                                    <img src="assets/img/team/icon.png" alt="icon-shape">
+                                    <img src="public/assets/img/team/icon.png" alt="icon-shape">
                                 </div>
                             </div>
                             <div class="team-content">
@@ -1200,9 +1200,9 @@
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                         <div class="single-team-items text-center">
                             <div class="team-image">
-                                <img src="assets/img/team/03.png" alt="team-img">
+                                <img src="public/assets/img/team/03.png" alt="team-img">
                                 <div class="icon-shape">
-                                    <img src="assets/img/team/icon.png" alt="icon-shape">
+                                    <img src="public/assets/img/team/icon.png" alt="icon-shape">
                                 </div>
                             </div>
                             <div class="team-content">
@@ -1222,7 +1222,7 @@
                     <div class="col-md-7 col-9">
                         <div class="section-title">
                             <span class="wow fadeInUp">
-                            <img src="assets/img/hero/title.png" alt="title-img">
+                            <img src="public/assets/img/hero/title.png" alt="title-img">
                             company insights
                             </span>
                             <h2 class="wow fadeInUp" data-wow-delay=".3s"> 
@@ -1243,7 +1243,7 @@
                 <div class="row">
                     <div class="col-xl-7 col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                         <div class="news-image">
-                            <img src="assets/img/news/01.jpg" alt="news-img">
+                            <img src="public/assets/img/news/01.jpg" alt="news-img">
                             <div class="post-cat-item">
                                 <h6 class="post-title"><a href="news-details.html">consult</a></h6>
                                 <h6 class="post-title-2"><a href="news-details.html">construction</a></h6>
@@ -1326,7 +1326,7 @@
                             <div class="single-footer-widget pe-md-5">
                                 <div class="widget-head">
                                     <h4>
-                                        <img src="assets/img/icon/icon.png" alt="icon">
+                                        <img src="public/assets/img/icon/icon.png" alt="icon">
                                         Essential
                                     </h4>
                                 </div>
@@ -1402,7 +1402,7 @@
                             <div class="single-footer-widget">
                                 <div class="widget-head">
                                     <h4>
-                                        <img src="assets/img/icon/icon.png" alt="icon">
+                                        <img src="public/assets/img/icon/icon.png" alt="icon">
                                         Services
                                     </h4>
                                 </div>
@@ -1451,7 +1451,7 @@
                                 <div class="footer-contact-items">
                                     <div class="contact-content">
                                         <h4>
-                                            <img src="assets/img/icon/icon-2.png" alt="icon">
+                                            <img src="public/assets/img/icon/icon-2.png" alt="icon">
                                             Get Updates
                                         </h4>
                                         <p>
@@ -1520,7 +1520,7 @@
                         </p>
                         <div class="footer-logo wow fadeInUp" data-wow-delay=".5s">
                             <a href="#">
-                            <img src="assets/img/logo/n-footer-logo.png" alt="footer-logo">
+                            <img src="public/assets/img/logo/n-footer-logo.png" alt="footer-logo">
                             </a>
                         </div>
                         <ul class="footer-menu wow fadeInUp" data-wow-delay=".7s">
@@ -1553,26 +1553,26 @@
         </div>
         
         <!--<< Jquery Latest >>-->
-        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <script src="public/assets/js/jquery-3.7.1.min.js"></script>
         <!--<< Viewport Js >>-->
-        <script src="assets/js/viewport.jquery.js"></script>
+        <script src="public/assets/js/viewport.jquery.js"></script>
         <!--<< Bootstrap Js >>-->
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="public/assets/js/bootstrap.bundle.min.js"></script>
         <!--<< Nice Select Js >>-->
-        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <script src="public/assets/js/jquery.nice-select.min.js"></script>
         <!--<< Waypoints Js >>-->
-        <script src="assets/js/jquery.waypoints.js"></script>
+        <script src="public/assets/js/jquery.waypoints.js"></script>
         <!--<< Counterup Js >>-->
-        <script src="assets/js/jquery.counterup.min.js"></script>
+        <script src="public/assets/js/jquery.counterup.min.js"></script>
         <!--<< Swiper Slider Js >>-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="public/assets/js/swiper-bundle.min.js"></script>
         <!--<< MeanMenu Js >>-->
-        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <script src="public/assets/js/jquery.meanmenu.min.js"></script>
         <!--<< Magnific Popup Js >>-->
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="public/assets/js/jquery.magnific-popup.min.js"></script>
         <!--<< Wow Animation Js >>-->
-        <script src="assets/js/wow.min.js"></script>
+        <script src="public/assets/js/wow.min.js"></script>
         <!--<< Main.js >>-->
-        <script src="assets/js/main.js"></script>
+        <script src="public/assets/js/main.js"></script>
     </body>
 </html>
