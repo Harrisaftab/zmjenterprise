@@ -502,7 +502,7 @@
             <div class="swiper hero-slider-4">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/new/07.jpg');"></div>
+                        <div class="hero-image bg-cover" style="background-image: url('public/assets/img/hero/new/07.jpg');"></div>
                         <div class="shape-1"  data-animation="fadeInUp" data-delay="2.3s">
                             <img src="public/assets/img/hero/new/shape.png" alt="shape-img">
                         </div>
@@ -541,7 +541,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/new/08.jpg');"></div>
+                        <div class="hero-image bg-cover" style="background-image: url('public/assets/img/hero/new/08.jpg');"></div>
                         <div class="shape-1"  data-animation="fadeInUp" data-delay="2.3s">
                             <img src="public/assets/img/hero/new/shape.png" alt="shape-img">
                         </div>
@@ -580,7 +580,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="hero-image bg-cover" style="background-image: url('assets/img/hero/new/09.jpg');"></div>
+                        <div class="hero-image bg-cover" style="background-image: url('public/assets/img/hero/new/09.jpg');"></div>
                         <div class="shape-1"  data-animation="fadeInUp" data-delay="2.3s">
                             <img src="public/assets/img/hero/new/shape.png" alt="shape-img">
                         </div>
