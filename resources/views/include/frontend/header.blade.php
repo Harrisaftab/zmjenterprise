@@ -71,7 +71,7 @@
             <div class="offcanvas__content">
                 <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                     <div class="offcanvas__logo">
-                        <a href="#">
+                        <a href="{{ route('home') }}">
                         <img src="public/assets/img/logo/n-logo.png" alt="logo-img">
                         </a>
                     </div>
@@ -168,7 +168,7 @@
     </div>
     <div id="header-sticky" class="header-1">
         <div class="header-logo">
-            <a href="#">
+            <a href="{{ route('home') }}">
             <img src="public/assets/img/logo/n-logo.png" alt="Header Logo">
             </a>
         </div>

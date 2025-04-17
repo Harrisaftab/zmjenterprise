@@ -200,7 +200,7 @@
                     &copy; copyright & design by <a href="#">@Ali-Ayaz</a> - 2025
                 </p>
                 <div class="footer-logo wow fadeInUp" data-wow-delay=".5s">
-                    <a href="#">
+                    <a href="{{ route('home') }}">
                     <img src="public/assets/img/logo/n-footer-logo.png" alt="footer-logo">
                     </a>
                 </div>
