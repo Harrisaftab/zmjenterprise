@@ -179,245 +179,27 @@
                         <div class="main-menu">
                             <nav id="mobile-menu">
                                 <ul>
-                                    <li class="has-dropdown active menu-thumb">
-                                        <a href="#">
-                                        Home
-                                        {{-- <i class="fas fa-angle-down"></i> --}}
-                                        </a>
-                                        {{-- <ul class="submenu has-homemenu">
-                                            <li class="border-none">
-                                                <div class="row gx-6 row-cols-1 row-cols-md-2 row-cols-xl-6">
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb">
-                                                            <img src="public/assets/img/header/home-1.jpg" alt="img">
-                                                            <div class="demo-button">
-                                                                <a href="#" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                    </span>
-                                                                </a>
-                                                                <a href="index-one-page.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">One Page</span>
-                                                                        <span class="effect-1">One Page</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                Home 01
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="public/assets/img/header/home-2.jpg" alt="img">
-                                                            <div class="demo-button">
-                                                                <a href="index-2.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                    </span>
-                                                                </a>
-                                                                <a href="index-two-page.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">One Page</span>
-                                                                        <span class="effect-1">One Page</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                Home 02
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="public/assets/img/header/home-3.jpg" alt="img">
-                                                            <div class="demo-button">
-                                                                <a href="index-3.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                    </span>
-                                                                </a>
-                                                                <a href="index-three-page.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">One Page</span>
-                                                                        <span class="effect-1">One Page</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                Home 03
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="public/assets/img/header/home-4.jpg" alt="img">
-                                                            <div class="demo-button">
-                                                                <a href="index-4.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                    </span>
-                                                                </a>
-                                                                <a href="index-four-page.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">One Page</span>
-                                                                        <span class="effect-1">One Page</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                Home 04
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="public/assets/img/header/home-5.jpg" alt="img">
-                                                            <div class="demo-button">
-                                                                <a href="index-5.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                    </span>
-                                                                </a>
-                                                                <a href="index-five-page.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">One Page</span>
-                                                                        <span class="effect-1">One Page</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                Home 05
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col homemenu">
-                                                        <div class="homemenu-thumb mb-15">
-                                                            <img src="public/assets/img/header/home-6.jpg" alt="img">
-                                                            <div class="demo-button">
-                                                                <a href="index-6.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                        <span class="effect-1">Multi Page</span>
-                                                                    </span>
-                                                                </a>
-                                                                <a href="index-six-page.html" class="theme-btn hover-color">
-                                                                    <span class="theme-effect">
-                                                                        <span class="effect-1">One Page</span>
-                                                                        <span class="effect-1">One Page</span>
-                                                                    </span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="homemenu-content text-center">
-                                                            <h4 class="homemenu-title">
-                                                                Home 06
-                                                            </h4>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul> --}}
+                                    <li class="has-dropdown menu-thumb {{ request()->routeIs('home') ? 'active' : '' }}">
+                                        <a href="{{ route('home') }}">Home</a>
                                     </li>
-                                    <li class="has-dropdown active d-xxl-none">
-                                        <a href="team.html" class="border-none">
-                                        Home
-                                        {{-- <i class="fas fa-angle-down"></i> --}}
-                                        </a>
-                                        {{-- <ul class="submenu">
-                                            <li><a href="#">Home 01</a></li>
-                                            <li><a href="index-2.html">Home 02</a></li>
-                                            <li><a href="index-3.html">Home 03</a></li>
-                                            <li><a href="index-4.html">Home 04</a></li>
-                                            <li><a href="index-5.html">Home 05</a></li>
-                                            <li><a href="index-6.html">Home 06</a></li>
-                                        </ul> --}}
+                                    <li class="has-dropdown d-xxl-none {{ request()->routeIs('home') ? 'active' : '' }}">
+                                        <a href="{{ route('home') }}" class="border-none">Home</a>
                                     </li>
-                                    <li>
-                                        <a href="about.html">About</a>
+                                    <li class="{{ request()->routeIs('about') ? 'active' : '' }}">
+                                        <a href="{{ route('about') }}">About</a>
                                     </li>
-                                    <li>
-                                        <a href="services.html">
-                                        Services
-                                        <i class="fas fa-angle-down"></i>
-                                        </a>
-                                        <ul class="submenu">
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="service-details.html">Service Details</a></li>
-                                        </ul>
+                                    <li class="{{ request()->routeIs('services') ? 'active' : '' }}">
+                                        <a href="{{ route('services') }}">Services</a>
                                     </li>
-                                    <li>
-                                        <a href="news.html">
-                                        news
-                                        <i class="fas fa-angle-down"></i>
-                                        </a>
-                                        <ul class="submenu">
-                                            <li><a href="news.html">news</a></li>
-                                            <li><a href="news-details.html">news Details</a></li>
-                                        </ul>
+                                    <li class="{{ request()->routeIs('blog') ? 'active' : '' }}">
+                                        <a href="{{ route('blog') }}">News</a>
                                     </li>
                                     <li class="has-dropdown">
-                                        <a href="news.html">
-                                        Pages
-                                        <i class="fas fa-angle-down"></i>
-                                        </a>
-                                        <ul class="submenu">
-                                            <li class="has-dropdown">
-                                                <a href="case-study.html">
-                                                Case Study
-                                                <i class="fas fa-angle-down"></i>
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li><a href="case-study.html">Case Study</a></li>
-                                                    <li><a href="case-details.html">Case Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-dropdown">
-                                                <a href="team.html">
-                                                Team
-                                                <i class="fas fa-angle-down"></i>
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li><a href="team.html">Team</a></li>
-                                                    <li><a href="team-details.html">Team Details</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-dropdown">
-                                                <a href="shop.html">
-                                                Shop
-                                                <i class="fas fa-angle-down"></i>
-                                                </a>
-                                                <ul class="submenu">
-                                                    <li><a href="shop.html">Product</a></li>
-                                                    <li><a href="product-details.html">product Details One</a></li>
-                                                    <li><a href="product-details-2.html">product Details Two</a></li>
-                                                    <li><a href="product-cart.html">product Cart</a></li>
-                                                    <li><a href="checkout.html">checkout</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">Faq's</a></li>
-                                            <li><a href="coming-soon.html">coming soon</a></li>
-                                            <li><a href="404.html">404 Page</a></li>
-                                        </ul>
+                                        <a href="#">Pages</a>
+                                        {{-- You can add sub-menu here if needed --}}
                                     </li>
-                                    <li>
-                                        <a href="contact.html">Contact</a>
+                                    <li class="{{ request()->routeIs('contact') ? 'active' : '' }}">
+                                        <a href="{{ route('contact') }}">Contact</a>
                                     </li>
                                 </ul>
                             </nav>
